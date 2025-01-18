@@ -76,7 +76,7 @@ const WeatherComp = () => {
       setError("City name cannot be empty!");  // Show error if input is empty
       return;
     }
-    setError("");  // Clear error if input is valid
+    setError(""); 
     setcity(newCity);
     inpRef.current.value = "";
   }
@@ -91,7 +91,7 @@ const WeatherComp = () => {
             <button onClick={search}>Search</button>
           </div>
 
-          {error && <p className="error">{error}</p>} {/* Show error message if exists */}
+          {error && <p className="error">{error}</p>} 
 
           {
             weather ? <div className='Main'>
