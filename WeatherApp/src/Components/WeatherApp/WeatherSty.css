@@ -1,0 +1,87 @@
+.Container {
+  background: linear-gradient(135deg, #00C9FF, #92FE9D);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContentContainer {
+  border: 1px solid black;
+  padding: 20px 15px;
+}
+
+.SearchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  margin: 0 50px;
+}
+
+.ContentContainer input {
+  width: 100%;
+}
+
+.ContentContainer input , button{
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.ContentContainer input:active {
+  outline: 1px solid black;
+}
+
+.ContentContainer button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.imageTemp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+}
+
+.imageContainer {
+  border: 1px solid black;
+  width: 65%;
+}
+
+.imageContainer span {
+  padding: 5px;
+}
+
+.imageContainer p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.Temp {
+  width: 50%;
+  text-align: left;
+  padding: 0 5px;
+  margin-left: 5px;
+}
+
+.Temp p {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.windHumidity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
